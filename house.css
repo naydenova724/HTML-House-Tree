@@ -1,0 +1,111 @@
+       
+#houseMain {
+    height: 740px;
+    background-color: yellow; 
+    background-image: linear-gradient(to bottom right, yellow, green);
+}
+
+#houseBody {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left:1000px;
+    top:300px;
+    background-color: #eeac99;   
+}
+
+#houseBody div {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 100px;
+    margin: 23px; 
+    background-color: #b7d7e8;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#houseBody span {
+    position: relative;
+    top: -133px;
+    left: 150px;
+    height: 150px;
+    width: 100px;
+    margin: 23px; 
+    background-color: #7e4a35;
+    border-radius: 70px 70px 0 0;
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+#doorHouse svg {
+    position: relative;
+    top: 70px;
+    left: 70px;  
+}
+
+.windowHouse svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#roofHouse {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #d35400;
+    position: relative;
+    top: 0;
+    left: -295px; 
+    display: inline-block;
+}
+
+#chimneyHouse {
+    position: absolute;
+    top: 120px;
+    left: 1250px;
+    height: 200px;
+    width: 40px;
+    background-color: black;
+}
+
+#treeUp {        
+        position: absolute;
+        top: 150px;
+        left: 650px;
+    }
+ 
+#treeUp div {
+    width: 150px;
+    height: 150px;
+    background: green;
+    border-radius: 100%;
+}
+
+    .t1 { 
+        position: relative; 
+        top: 30px; 
+        left: 0px; 
+    }
+    .t2 { 
+        position: relative; 
+        top: -75px; 
+        left: 50px; 
+    }
+    .t3 { 
+        position: relative; 
+        top: -175px; 
+        left: 45px; 
+    }
+    .t4 { 
+        position: relative; 
+        top: -325px; 
+        left: -40px; 
+    }
+    .t5 { 
+        position: relative; 
+        top: -525px; 
+        left: -50px; 
+    }
